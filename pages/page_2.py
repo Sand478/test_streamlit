@@ -5,16 +5,16 @@
 
 import streamlit as st
 
-# def main():
+def main():
 
-#     st.subheader('Тут можно узнать следующее число :ru:')
-#     st.markdown("# Функция ❄️")
-#     st.sidebar.markdown("Функция с числом")
-#     a = st.text_area(label='Введите число и узнаете следующее. После набора числа нажмите Ctrl + Enter', value = '42')
-#     st.write('Ответ', int(a) + 1)
+    st.subheader('Тут можно узнать следующее число :ru:')
+    st.markdown("# Функция ❄️")
+    st.sidebar.markdown("Функция с числом")
+    a = st.text_area(label='Введите число и узнаете следующее. После набора числа нажмите Ctrl + Enter', value = '42')
+    st.write('Ответ', int(a) + 1)
 
-# if __name__ == '__main__':
-#          main()
+if __name__ == '__main__':
+         main()
 
 
 
